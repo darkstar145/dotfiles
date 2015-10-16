@@ -1,5 +1,5 @@
 darkstar145 dotfiles
-===============
+====================
 
 I use [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
 darkstar145/dotfiles together using [the `*.local` convention][dot-local].
@@ -24,11 +24,11 @@ Install
 
 Clone onto my laptop:
 
-    git clone git://github.com/croaky/dotfiles.git
+    git clone git://github.com/darkstar145/dotfiles.git $HOME/darkstar145/dotfiles
 
 Install:
 
-    env RCRC=$HOME/dotfiles-local/rcrc rcup
+    env RCRC=$HOME/darkstar145/dotfiles/rcrc rcup
 
 This will create symlinks for config files in my home directory.
 
@@ -39,7 +39,7 @@ What's in it?
 
 [vim](http://www.vim.org/) configuration:
 
-* [GitHub color scheme](https://github.com/croaky/vim-colors-github)
+* [GitHub color scheme](https://github.com/acarapetis/vim-colors-github)
 
 [git](http://git-scm.com/) configuration:
 
