@@ -1,2 +1,4 @@
 Plug 'acarapetis/vim-colors-github'
 
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'acarapetis/vim-colors-github'

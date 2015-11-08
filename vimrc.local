@@ -5,3 +5,6 @@ highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
+
+" Use two spaces between sentences
+set cpo+=J
