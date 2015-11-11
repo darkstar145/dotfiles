@@ -8,3 +8,15 @@ au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
 " Use two spaces between sentences
 set cpo+=J
+
+" Abbreviations
+iabbrev thysp The Hesburgh-Yusko Scholars Program
+
+" Faster save
+nnoremap <Leader>w :w<CR>
+" Faster escape
+inoremap jk <esc>
+inoremap <esc> <nop>
+" Faster editing of vimrc
+nnoremap <leader>ev :vsplit $MYVIMRC.local<cr>
+nnoremap <leader>sv :source $MYVIMRC.local<cr>
