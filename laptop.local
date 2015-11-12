@@ -23,5 +23,5 @@ brew_cask_install_or_upgrade() {
 
 brew_tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
-brew_cask_install 'iterm2'
 brew_install_or_upgrade 'shellcheck'
+brew_cask_install_or_upgrade 'google-chrome'
