@@ -1,2 +1,3 @@
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'acarapetis/vim-colors-github'
+Plug 'junegunn/vim-easy-align'

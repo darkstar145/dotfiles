@@ -6,20 +6,9 @@ highlight Folded  guibg=#0A0A0A guifg=#9090D0
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
-" Use two spaces between sentences
-set cpo+=J
-
-" Abbreviations
-iabbrev thysp The Hesburgh-Yusko Scholars Program
-
-" Faster save
-nnoremap <Leader>w :w<CR>
-" Faster escape
-inoremap jk <esc>
-inoremap <esc> <nop>
-" Faster editing of vimrc
-nnoremap <leader>ev :vsplit $MYVIMRC.local<cr>
-nnoremap <leader>sv :source $MYVIMRC.local<cr>
-
 " Set spellfile
 set spellfile=$HOME/Dropbox/code/vim-spell/vim-spell-en.utf-8.add
+
+" Better list formatting
+set fo+=2n
+set autoindent
