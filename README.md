@@ -40,6 +40,8 @@ What's in it?
 [vim](http://www.vim.org/) configuration:
 
 * [GitHub color scheme](https://github.com/acarapetis/vim-colors-github)
+* [vim-easy-align](https://github.com/junegunn/vim-easy-align)
+* [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 [git](http://git-scm.com/) configuration:
 
