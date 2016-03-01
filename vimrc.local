@@ -10,5 +10,5 @@ au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 set spellfile=$HOME/Dropbox/code/vim-spell/vim-spell-en.utf-8.add
 
 " Better list formatting
-set fo+=2n
+set fo+=n
 set autoindent

@@ -12,23 +12,27 @@ Requirements
 
 Set zsh as my login shell.
 
-    chsh -s /bin/zsh
+  chsh -s /bin/zsh
 
 Install [rcm](https://github.com/mike-burns/rcm).
 
-    brew tap thoughtbot/formulae
-    brew install rcm
+  brew tap thoughtbot/formulae
+  brew install rcm
 
 Install
 -------
 
-Clone onto my laptop:
+Clone thoughtbot dotfiles:
 
-    git clone git://github.com/darkstar145/dotfiles.git $HOME/darkstar145/dotfiles
+  git clone https://github.com/thoughtbot/dotfiles $HOME/thoughtbot/dotfiles
+
+Clone personal dotfiles:
+
+  git clone git://github.com/darkstar145/dotfiles.git $HOME/darkstar145/dotfiles
 
 Install:
 
-    env RCRC=$HOME/darkstar145/dotfiles/rcrc rcup
+  env RCRC=$HOME/darkstar145/dotfiles/rcrc rcup
 
 This will create symlinks for config files in my home directory.
 
