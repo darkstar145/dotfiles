@@ -7,7 +7,7 @@ highlight Folded  guibg=#0A0A0A guifg=#9090D0
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
 " Set spellfile
-set spellfile=$HOME/Dropbox/code/vim-spell/vim-spell-en.utf-8.add
+set spellfile=$HOME/files/code/vim-spell/vim-spell-en.utf-8.add
 
 " Better list formatting
 set fo+=n
