@@ -28,7 +28,7 @@ Clone thoughtbot dotfiles:
 
 Clone personal dotfiles:
 
-  git clone git://github.com/darkstar145/dotfiles.git $HOME/darkstar145/dotfiles
+  git clone https://github.com/darkstar145/dotfiles.git $HOME/darkstar145/dotfiles
 
 Install:
 
