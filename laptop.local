@@ -21,15 +21,18 @@ brew_cask_install_or_upgrade() {
   fi
 }
 
-brew_tap 'caskroom/cask'
-brew_install_or_upgrade 'brew-cask'
-brew_install_or_upgrade 'shellcheck'
-brew_install_or_upgrade 'pandoc'
+#brew_tap 'caskroom/cask'
+#brew_install_or_upgrade 'brew-cask'
+
+#brew install 'shellcheck'
+#brew install 'pandoc'
 # brew_cask_install 'google-chrome'
-brew_install_or_upgrade 'multimarkdown'
-brew_install_or_upgrade 'smartypants'
-brew_cask_install 'dropbox'
-brew_cask_install 'basictex'
+#brew install 'multimarkdown'
+#brew install 'smartypants'
+#brew_cask_install 'dropbox'
+#brew_cask_install 'basictex'
 brew_cask_install 'appcleaner'
+brew_cask_install flux
+#brew_cask_install libreoffice
 
 # Also install github theme for terminal, fonts as desired
