@@ -34,6 +34,6 @@ brew_cask_install_or_upgrade() {
 #brew_cask_install 'basictex'
 #brew_cask_install 'dropbox'
 #brew_cask_install 'appcleaner'
-#brew_cask_install 'spectacle'
+brew_cask_install 'spectacle'
 
-brew_cask_install 'flux'
+#brew_cask_install 'flux'
