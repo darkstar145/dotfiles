@@ -10,11 +10,16 @@ http://robots.thoughtbot.com/manage-team-and-personal-dotfiles-together-with-rcm
 Requirements
 ------------
 
+Install [Homebrew](brew.sh).
+
+Install zsh.
+	
+	brew install zsh
+
 Set zsh as my login shell.
 
-    chsh -s /bin/zsh
+    chsh -s /usr/local/bin/zsh
 
-Install [Homebrew](brew.sh).
 Install [rcm](https://github.com/mike-burns/rcm).
 
     brew tap thoughtbot/formulae

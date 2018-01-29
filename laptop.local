@@ -29,7 +29,7 @@ brew_cask_install_or_upgrade() {
 #brew install 'smartypants'
 #brew_cask_install 'libreoffice'
 #brew_cask_install 'alfred' #only if spotlight is too slow
-#brew_cask_install 'google-chrome'
+brew_cask_install 'google-chrome'
 #brew install 'pandoc'
 #brew_cask_install 'basictex'
 #brew_cask_install 'dropbox'
