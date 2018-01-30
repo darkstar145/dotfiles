@@ -13,8 +13,8 @@ Requirements
 Install [Homebrew](brew.sh).
 
 Install zsh.
-	
-	brew install zsh
+
+    brew install zsh
 
 Set zsh as my login shell.
 
@@ -50,6 +50,8 @@ What's in it?
 [vim](http://www.vim.org/) configuration:
 
 * [GitHub color scheme](https://github.com/acarapetis/vim-colors-github)
+  (optionally, install
+  [GitHub theme for macOS Terminal.app](https://github.com/paulfryzel/github-terminal-theme))
 * [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 * [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator)
 
