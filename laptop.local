@@ -35,5 +35,6 @@ brew_cask_install 'google-chrome'
 #brew_cask_install 'dropbox'
 #brew_cask_install 'appcleaner'
 brew_cask_install 'spectacle'
+brew_cask_install 'visual-studio-code'
 
 #brew_cask_install 'flux'
