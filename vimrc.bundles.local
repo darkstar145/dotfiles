@@ -1,3 +1,4 @@
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'acarapetis/vim-colors-github'
 Plug 'junegunn/vim-easy-align'
+Plug 'jeffkreeftmeijer/vim-dim'
