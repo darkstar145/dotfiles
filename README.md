@@ -1,8 +1,8 @@
-darkstar145 dotfiles
+stefan-peng dotfiles
 ====================
 
 I use [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
-darkstar145/dotfiles together using [the `*.local` convention][dot-local].
+stefan-peng/dotfiles together using [the `*.local` convention][dot-local].
 
 [dot-local]:
 http://robots.thoughtbot.com/manage-team-and-personal-dotfiles-together-with-rcm
@@ -34,11 +34,11 @@ Clone thoughtbot dotfiles:
 
 Clone personal dotfiles:
 
-    git clone https://github.com/darkstar145/dotfiles.git $HOME/darkstar145/dotfiles
+    git clone https://github.com/stefan-peng/dotfiles.git $HOME/stefan-peng/dotfiles
 
 Install:
 
-    env RCRC=$HOME/darkstar145/dotfiles/rcrc rcup
+    env RCRC=$HOME/stefan-peng/dotfiles/rcrc rcup
 
 This will create symlinks for config files in my home directory.
 
@@ -49,9 +49,9 @@ What's in it?
 
 [vim](http://www.vim.org/) configuration:
 
-* [GitHub color scheme](https://github.com/acarapetis/vim-colors-github)
+* [Gruvbox color scheme](https://github.com/morhetz/gruvbox)
   (optionally, install
-  [GitHub theme for macOS Terminal.app](https://github.com/paulfryzel/github-terminal-theme))
+  [Gruvbox theme for macOS Terminal.app](https://github.com/morhetz/gruvbox-contrib))
 * [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 * [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator)
 
