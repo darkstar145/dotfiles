@@ -2,7 +2,8 @@ stefan-peng dotfiles
 ====================
 
 I use [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles) and
-stefan-peng/dotfiles together using [the `*.local` convention][dot-local].
+[stefan-peng/dotfiles](https://github.com/stefan-peng/dotfiles) together using
+[the `*.local` convention][dot-local].
 
 [dot-local]:
 http://robots.thoughtbot.com/manage-team-and-personal-dotfiles-together-with-rcm
