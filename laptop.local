@@ -30,8 +30,8 @@ brew_cask_install_or_upgrade() {
 #brew_cask_install_or_upgrade 'libreoffice'
 brew_cask_install_or_upgrade 'alfred' #only if spotlight is too slow
 brew_cask_install_or_upgrade 'google-chrome'
-#brew install_or_upgrade 'pandoc'
-brew_cask_install_or_upgrade 'basictex'
+brew install_or_upgrade 'pandoc'
+brew_cask_install_or_upgrade 'mactex'
 #brew_cask_install_or_upgrade 'dropbox'
 #brew_cask_install_or_upgrade 'appcleaner'
 brew_cask_install_or_upgrade 'spectacle'
